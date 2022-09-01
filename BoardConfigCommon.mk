@@ -17,7 +17,7 @@
 
 #
 # This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
+# throughout the system. It should not be used to conditionally
 # disable makefiles (the proper mechanism to control what gets
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
@@ -172,7 +172,7 @@ TARGET_RECOVERY_DEVICE_MODULES += chargeled
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 
 # VNDK
-# Dedupe VNDK libraries with identical core variants.
+# Dedupe VNDK libraries with identical core variants. 
 TARGET_VNDK_USE_CORE_VARIANT := true
 
 # Inherit from the proprietary version
